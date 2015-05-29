@@ -57,8 +57,8 @@ void setup() {
 void attachMotors() {
   nwMotor.attach(3);
   swMotor.attach(5);
-  swMotor.attach(6);
-  swMotor.attach(9);
+  seMotor.attach(10);
+  neMotor.attach(11);
   setAllMotorSpeeds(700);
   delay(3000);
 
